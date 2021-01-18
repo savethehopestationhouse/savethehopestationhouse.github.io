@@ -1,6 +1,19 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
 
+
+
+/* User-added
+*/
+br {
+	display: block;
+	/* makes it have a width */
+	content: "";
+	/* clears default height */
+	margin-top: 15px;
+	/* change this to whatever height you want it */
+}
+
 /*
 	Story by HTML5 UP
 	html5up.net | @ajlkn
@@ -2637,6 +2650,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			border-radius: 4px;
+			width: 40%;
 		}
 
 		.image.left, .image.right {
