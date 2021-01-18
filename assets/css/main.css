@@ -17,6 +17,7 @@ br {
 .highlights {
 	color: blue;
 	font-weight: bold;
+
 }
 
 audio:focus {
@@ -2654,6 +2655,8 @@ input, select, textarea {
 		border-radius: 4px;
 		display: inline-block;
 		position: relative;
+		max-width: 100%;
+		max-height: 100%;
 	}
 
 		.image img {
