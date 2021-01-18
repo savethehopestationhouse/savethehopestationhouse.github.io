@@ -19,6 +19,10 @@ br {
 	font-weight: bold;
 }
 
+audio:focus {
+	outline: none;
+}
+
 /*
 	Story by HTML5 UP
 	html5up.net | @ajlkn
