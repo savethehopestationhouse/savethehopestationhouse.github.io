@@ -17,11 +17,18 @@ br {
 .highlights {
 	color: blue;
 	font-weight: bold;
+	
 
 }
 
 audio:focus {
 	outline: none;
+}
+
+.call-to-action {
+		color: blue;
+		font-weight: bold;
+		font-size: 20pt;
 }
 
 /*
