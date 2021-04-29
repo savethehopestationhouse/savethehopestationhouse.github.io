@@ -14,7 +14,7 @@ br {
 	/* change this to whatever height you want it */
 }
 
-.important {
+.call-to-action-highlight {
 	color: green;
 	font-weight: bold;
 }
@@ -354,7 +354,7 @@ input, select, textarea {
 	a {
 		color: #000000;
 	}
-	.important a{
+	.call-to-action-highlight a {
 			color: green;
 			font-weight: bold;
 	}
