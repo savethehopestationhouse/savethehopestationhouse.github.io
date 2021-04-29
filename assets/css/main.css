@@ -14,21 +14,20 @@ br {
 	/* change this to whatever height you want it */
 }
 
-.highlights {
-	color: blue;
+.important {
+	color: green;
 	font-weight: bold;
-	
-
 }
 
 audio:focus {
 	outline: none;
 }
 
+
 .call-to-action {
-		color: blue;
-		font-weight: bold;
-		font-size: 20pt;
+	color: blue;
+	font-weight: bold;
+	font-size: 20pt;
 }
 
 /*
@@ -220,6 +219,9 @@ input, select, textarea {
 		p.major {
 			font-size: 1.25rem;
 		}
+		p.minor {
+			font-size: 1.1rem;
+		}
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
@@ -351,6 +353,10 @@ input, select, textarea {
 
 	a {
 		color: #000000;
+	}
+	.important a{
+			color: green;
+			font-weight: bold;
 	}
 
 		a:hover {
